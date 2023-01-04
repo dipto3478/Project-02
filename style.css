@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #414141;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    margin: 50px auto;    
+}
+nav li{
+    list-style-type: none;
+    margin-right: 10px;
+    align-content: center;
+}
+nav li > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+
+}nav li:hover a{
+    background-color: red;
+
+}
